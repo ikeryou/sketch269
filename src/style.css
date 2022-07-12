@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #155673;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.l-debug {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  color: #FFF;
+  font-size: 12px;
+  display: none;
+}
+
+.l-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.link {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #000;
+  z-index: 9999;
+}
